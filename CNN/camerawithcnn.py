@@ -6,7 +6,7 @@ import numpy as np
 from keras.preprocessing import image 
 from keras.models  import load_model
 
-model = load_model('C:\\Users\\anshu\\Desktop\\books\\internship\\cnn\\cnnmulti.h5') 
+model = load_model('cnnmulti.h5') 
 video = cv2.VideoCapture(0)
 name = ["vroww","bear","elephant","raccoon","rat"]
     
